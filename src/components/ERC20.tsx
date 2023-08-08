@@ -37,7 +37,7 @@ export function ERC20() {
           <input
            className="ml-[30px] appearance-none mx-5 w-120 bg-white text-gray-700  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white rounded-full"
             style={{ width: 400 }}
-        
+
           />
         </div>
         <div>
@@ -82,12 +82,7 @@ export function ERC20() {
 }
 
 function Name({ tokenAddress }: { tokenAddress: Address }) {
-  const { data: name } = useErc20Name({
-    address: tokenAddress,
-  });
-  const { data: symbol } = useErc20Symbol({
-    address: tokenAddress,
-  });
+  
   return (
     <div className="text-white">
       unimplemented

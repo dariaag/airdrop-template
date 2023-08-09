@@ -55,18 +55,19 @@ export function ERC20() {
             <div className="stat place-items-center">
               <div className="stat-title text-gray-200">Name</div>
             
-
+              {/* Name Component Here */}
               <div className="stat-desc"></div>
             </div>
 
             <div className="stat place-items-center">
               <div className="stat-title text-gray-200">Balance</div>
-              
+              {/* Balance Component Here */}
               <div className="stat-desc text-secondary"></div>
             </div>
 
             <div className="stat place-items-center">
               <div className="stat-title text-gray-200">Total Supply</div>
+              {/* TotalSupply Component Here */}
              
               <div className="stat-desc"></div>
             </div>
@@ -74,6 +75,10 @@ export function ERC20() {
 
          
           <h3></h3>
+           {/* Allowance Component Here */}
+
+           {/* Airdrop Component Here */}
+
           
         </>
       </div>
@@ -158,7 +163,6 @@ function Allowance({
         Airdrop Allowance:{" "}
         <input
           
-        
           placeholder="amount (units)"
          
           className="appearance-none mx-5 w-60 bg-white text-gray-700  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white rounded-full"

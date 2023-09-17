@@ -165,7 +165,7 @@ export const airdropAbi = [
   },
   {
     type: "function",
-    name: "airdrop",
+    name: "airdropERC20",
     inputs: [
       {
         type: "address",
